@@ -1,0 +1,16 @@
+.container {
+
+    background-color: #c8c6c3;
+    border-radius: .5rem;
+    > h1 {
+        padding-left: 15rem;
+    }
+}
+.items{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        font-weight: 900;
+        font-size: 1.5rem;
+        padding: 3rem;
+}

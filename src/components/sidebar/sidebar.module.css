@@ -1,0 +1,24 @@
+* {
+    margin : 0 ;
+    padding : 0 ;
+  }
+  
+  li {
+      list-style-type : none ;
+  }
+
+  .items {
+    background-color: #c8c6c3;
+    width: 30%;
+    height:100vh;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    > li > span {
+        padding: 0 1rem;
+    }
+  }

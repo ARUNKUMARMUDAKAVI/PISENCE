@@ -1,0 +1,28 @@
+center {
+    font-size: 3rem;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    border-radius: .5rem;
+    background-color: #c8c6c3;
+    font-size: 2rem;
+
+    > span > div {
+        gap : 20px;
+    }
+}
+
+.present {
+    width: 20px;
+    height: 20px;
+    color: green;
+}
+
+.absent {
+    width: 20px;
+    height: 20px;
+    color: red;
+}

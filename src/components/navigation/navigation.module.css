@@ -1,0 +1,11 @@
+.navigation {
+    background-color: #3b8d78;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+}
+
+svg {
+   font-size: 40px; 
+}
